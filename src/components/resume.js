@@ -51,7 +51,7 @@ class Resume extends Component {
                         startYear={2015}
                         endYear={2018}
                         schoolName={"Hetland Vgs"}
-                        schoolDescription={"General studies with specialization in physics, chemistry and math"}
+                        schoolDescription={"General studies with specialization in physics, chemistry and mathematics"}
                         />
 
                         <Education
