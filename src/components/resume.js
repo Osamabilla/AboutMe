@@ -12,9 +12,9 @@ class Resume extends Component {
                     <Cell col={4}>
                         <div style={{textAlign: 'center'}}>
                         <img 
-                        src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
+                        src="https://scontent.fsvg1-1.fna.fbcdn.net/v/t1.15752-9/124425304_1021653278317555_8258438116295012959_n.jpg?_nc_cat=110&ccb=2&_nc_sid=ae9488&_nc_ohc=CHMH80oX8Q0AX8G4w_A&_nc_ht=scontent.fsvg1-1.fna&oh=38a085092ff73ff129257525c713bd3d&oe=5FCDFC07"
                         alt="avatar"
-                        style={{height: '200px'}}
+                        style={{borderRadius: '50%', height: '350px', marginTop: '2em', marginBottom: '-5em'}}
                         />
                         </div>
 
@@ -39,7 +39,7 @@ class Resume extends Component {
                         <p>osamabilla@hotmail.com</p>
                         <hr/>
                         <h5 style={{fontWeight: 'bold'}}>Personal Webpage</h5>
-                        <p>osamabilla.com</p>
+                        <p>https://billaosama.netlify.app</p>
 
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
                     </Cell>

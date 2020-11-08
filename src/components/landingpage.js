@@ -8,9 +8,10 @@ class Landing extends Component {
                 <Grid className="landing-grid">
                     <Cell col={12}>
                         <img 
-                        src="https://banner2.cleanpng.com/20180523/tha/kisspng-businessperson-computer-icons-avatar-clip-art-lattice-5b0508dc6a3a10.0013931115270566044351.jpg"
+                        src="https://scontent.fsvg1-1.fna.fbcdn.net/v/t1.15752-9/124425304_1021653278317555_8258438116295012959_n.jpg?_nc_cat=110&ccb=2&_nc_sid=ae9488&_nc_ohc=CHMH80oX8Q0AX8G4w_A&_nc_ht=scontent.fsvg1-1.fna&oh=38a085092ff73ff129257525c713bd3d&oe=5FCDFC07"
                         alt="avatar"
                         className="avatar-img"
+                        style={{borderRadius: '20px'}}
                         />
 
                         <div className="banner-text">
