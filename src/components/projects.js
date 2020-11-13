@@ -69,6 +69,22 @@ toggleCategories() {
                     <IconButton name="share"/>  
                 </CardMenu>
             </Card>
+
+            <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                <CardTitle style={{color: 'black', height: '176px', background:
+                'url(https://media.geeksforgeeks.org/wp-content/uploads/a_-search-algorithm-1.png) center/cover'}}>
+                </CardTitle>
+                <CardText>
+                    <h5 style={{fontWeight: 'bold'}}>Memory Card Game</h5>
+                    Simple memory card game written in JavaScript.
+                </CardText>
+                <CardActions border>
+                    <Button colored ><a target="_blank" href="https://github.com/Osamabilla/Memory-Game-JS">Github</a></Button>
+                </CardActions>
+                <CardMenu style={{color: '#fff'}}>
+                    <IconButton name="share"/>  
+                </CardMenu>
+            </Card>
             </div>
 
             
