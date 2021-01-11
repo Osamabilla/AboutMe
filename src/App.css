@@ -1,5 +1,7 @@
 
 
+
+
 .header-color {
 
   background: #0F2027;  /* fallback for old browsers */
@@ -26,6 +28,8 @@
 
 .projects-grid {
   display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 
@@ -140,36 +144,36 @@
 .skillsHTML {
   margin: auto;
   text-align: center;
+  border-bottom: white;
+  margin-bottom: 1em;
   
 }
 
 .skillsJS {
-  font-size: 17px;
   margin: auto;
   text-align: center;
+  margin-bottom: 1em;
   
 }
 
 .skillsPython {
-  font-size: 16px;
-  width: 100%;
-  margin-left: 13px;
+  margin: auto;
   text-align: center;
+  margin-bottom: 1em;
   
 }
 
 .skillsReact {
-  width: 100%;
-  font-size: 15px;
-  margin-left: 18px;
+  margin: auto;
   text-align: center;
+  margin-bottom: 1em;
   
 }
 
 .skillsASP{
-  width: 100%;
-  margin-left: 7px;
+  margin: auto;
   text-align: center;
+  margin-bottom: 1em;
   
 }
 

@@ -3,6 +3,7 @@ import { Grid, Cell } from 'react-mdl';
 import Education from './education'
 import Experience from './experience'
 import Skills from './skills';
+import logo from 'C:/Users/Osama Billa/Desktop/netlifyapp/AboutMe/src/bam.PNG';
 
 class Resume extends Component {
     render() {
@@ -12,9 +13,9 @@ class Resume extends Component {
                     <Cell col={4}>
                         <div style={{textAlign: 'center'}}>
                         <img 
-                        src="https://scontent.fsvg1-1.fna.fbcdn.net/v/t1.15752-9/124425304_1021653278317555_8258438116295012959_n.jpg?_nc_cat=110&ccb=2&_nc_sid=ae9488&_nc_ohc=CHMH80oX8Q0AX8G4w_A&_nc_ht=scontent.fsvg1-1.fna&oh=38a085092ff73ff129257525c713bd3d&oe=5FCDFC07"
+                        src={logo}
                         alt="avatar"
-                        style={{borderRadius: '50%', height: '350px', marginTop: '2em', marginBottom: '-5em'}}
+                        style={{borderRadius: '30%', maxWidth: '300px', height: '350px', marginTop: '2em', marginBottom: '-5em'}}
                         />
                         </div>
 
@@ -23,7 +24,7 @@ class Resume extends Component {
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
                         <p style={{fontWeight: 'bold'}}>Ambitious and result driven student with passion for my craft.</p>
                         <hr/>
-                        <p>Working for years as a referee shapes you into becoming a vocal and confident individual with the ability to voice opinions,
+                        <p>Working for years as a referee shapes one into becoming a vocal and confident individual with the ability to voice opinions,
                             believe in yourself and face criticism with a positive attitude.
                             Both teamwork and independent work are key components in said profession. These characteristics will benefit me well in my pursue of a career in software development.
                             </p>
@@ -96,7 +97,7 @@ class Resume extends Component {
                         <h2>Skills</h2>
                         <div className="skillsHTML">
                         <Skills
-                        skill="HTML / CSS"
+                        skill="HTML / CSS "
                         progress={80}
                         />
                         </div>

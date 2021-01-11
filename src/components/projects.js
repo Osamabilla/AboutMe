@@ -18,7 +18,7 @@ toggleCategories() {
     if(this.state.activeTab === 0) {
         return(
             <div className="projects-grid">
-            <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '2em'}}>
                 <CardTitle style={{color: 'black', height: '176px', background:
                 'url(https://assets.vsco.co/assets/images/vsco-share-image.png) center/cover'}}>
                 </CardTitle>
@@ -36,7 +36,7 @@ toggleCategories() {
                 </CardMenu>
             </Card>
 
-            <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '2em'}}>
                 <CardTitle style={{color: 'black', height: '176px', background:
                 'url(https://noobtuts.com/content/unity/2d-space-shooter-game/unity_2d_space_shooter.png)'}}>
                 </CardTitle>
@@ -55,7 +55,24 @@ toggleCategories() {
                 </CardMenu>
             </Card>
 
-            <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '2em'}}>
+                <CardTitle style={{color: 'black', height: '176px', background:
+                'url(https://cdn.technologyadvice.com/wp-content/uploads/2018/02/friendly-chatbot-700x408.jpg) center/cover'}}>
+                </CardTitle>
+                <CardText>
+                    <h5 style={{fontWeight: 'bold'}}>Chatbot</h5>
+                    Created a simple chatbot to get a better understanding of the Microsoft Bot Framework and of chatbots in general.
+                </CardText>
+                <CardActions border>
+                    <Button colored ><a target="_blank" href="https://github.com/Osamabilla/Microsoft-Bot-Framework-CSharp">Github</a></Button>
+                    <Button colored ><a target="_blank" href="http://osamabilla.com/home/chatbot">Live Demo</a></Button>
+                </CardActions>
+                <CardMenu style={{color: '#fff'}}>
+                    <IconButton name="share"/>  
+                </CardMenu>
+            </Card>
+
+            <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '2em'}}>
                 <CardTitle style={{color: 'black', height: '176px', background:
                 'url(https://media.geeksforgeeks.org/wp-content/uploads/a_-search-algorithm-1.png) center/cover'}}>
                 </CardTitle>
@@ -70,9 +87,9 @@ toggleCategories() {
                 </CardMenu>
             </Card>
 
-            <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '2em'}}>
                 <CardTitle style={{color: 'black', height: '176px', background:
-                'url(https://media.geeksforgeeks.org/wp-content/uploads/a_-search-algorithm-1.png) center/cover'}}>
+                'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoDya-tUzRrf29ajqkrSDBkMM8j5GqYST37Q&usqp=CAU) center/cover'}}>
                 </CardTitle>
                 <CardText>
                     <h5 style={{fontWeight: 'bold'}}>Memory Card Game</h5>
@@ -85,6 +102,7 @@ toggleCategories() {
                     <IconButton name="share"/>  
                 </CardMenu>
             </Card>
+
             </div>
 
             
